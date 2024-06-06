@@ -10,28 +10,27 @@
 ### Key Decisions
 
 ## Features
-
-Add Task: Add new tasks with a title, description, due date, and category.
-Update Task: Update existing tasks.
-Delete Task: Delete tasks.
-Categorize Tasks: Assign tasks to different categories.
-Task Status: Mark tasks as pending or completed.
-Responsive Design: User-friendly interface for both desktop and mobile devices.
+- Add Task: Add new tasks with a title, description, due date, and category.
+- Update Task: Update existing tasks.
+- Delete Task: Delete tasks.
+- Categorize Tasks: Assign tasks to different categories.
+- Task Status: Mark tasks as pending or completed.
+- Responsive Design: User-friendly interface for both desktop and mobile devices.
 
 ## Installation
 ### Clone the repository: git clone https://github.com/Brainskull24/ChainTech.git
 
 ### For Frontend
-cd Chaintech
-npm install
-npm start
+- cd Chaintech
+- npm install
+- npm start
 This will start the application on http://localhost:3000.
 
 ### For Backend
-Create a .env file and define your MONGO_URL as your database connection string.
-cd server
-npm install
-npm run dev
+- Create a .env file and define your MONGO_URL as your database connection string.
+- cd server
+- npm install
+- npm run dev
 This will start the backend at the required port.
 
 # Usage
@@ -56,17 +55,6 @@ Confirmation will be displayed on prompt that appears.
 
 ## Toggle Task Status:
 Use the checkbox next to a task to mark it as completed or pending.
-
-## Code Structure
-The project follows a standard React structure with the following key directories:
-
-### src/: Contains the main source code for the application.
-### components/: Reusable components such as HomePage, TaskForm, etc.
-### __tests__/: Unit tests for the components.
-
-### App.js: Main application component.
-### index.js: Entry point of the application.
-### public/: Contains the public assets and index.html.
 
 # Key Decisions
 
