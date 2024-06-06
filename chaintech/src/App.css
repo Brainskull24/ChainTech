@@ -52,6 +52,7 @@ th {
 
 .title-column {
   width: 20%;
+  word-wrap: break-word;
 }
 
 .description-column {
