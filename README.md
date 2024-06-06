@@ -21,17 +21,18 @@
 ### Clone the repository: git clone https://github.com/Brainskull24/ChainTech.git
 
 ### For Frontend
-- cd Chaintech
+- cd chaintech
 - npm install
 - npm start
-This will start the application on http://localhost:3000.
+- This will start the application on http://localhost:3000.
 
 ### For Backend
 - Create a .env file and define your MONGO_URL as your database connection string.
+On another terminal
 - cd server
 - npm install
 - npm run dev
-This will start the backend at the required port.
+- This will start the backend at the required port.
 
 # Usage
 
