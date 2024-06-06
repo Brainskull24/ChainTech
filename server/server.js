@@ -13,6 +13,6 @@ require('dotenv').config();
 connectDB();
 app.use("/api/v1/task", taskRoutes);
 
-app.listen(process.env.PORT, () => {
+app.listen(PORT, () => {
   console.log(`TO-DO STARTED AT ${PORT}`);
 });
