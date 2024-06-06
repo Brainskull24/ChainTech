@@ -2,7 +2,7 @@ const Task = require("../models/taskModel.js");
 
 const addTask = async (req, res) => {
   try {
-    const { title, description, dueDate} = req.fields;
+    const { title, description, dueDate , category} = req.fields;
     if (!title) {
       return res.status(400).send({
         success: false,
@@ -12,7 +12,8 @@ const addTask = async (req, res) => {
     const task = new Task({
       title,
       description,
-      dueDate
+      dueDate,
+      category
     });
 
     await task.save();
@@ -67,11 +68,11 @@ const deleteTask = async (req, res) => {
 
 const updateTask = async (req, res) => {
   try {
-    const { title,description,status , dueDate} = req.body;
+    const { title,description,status , dueDate, category} = req.body;
     const {id} = req.params;
     const tasks = await Task.findByIdAndUpdate(
       id,
-      { title,description,status,dueDate},
+      { title,description,status,dueDate,category},
       { new: true }
     );
     await tasks.save();

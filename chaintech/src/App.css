@@ -6,14 +6,24 @@
 }
 .head-title {
   display: flex;
+  flex-direction: column;
   width: 100%;
-  justify-content: center;
+  align-items: center;
 }
 
-/* .btn-container{
-    border: 2px solid;
-} */
+.head-title span{
+  font-size: larger;
+  font-weight: bold;
+}
 
+.btn-container{
+  display: flex;
+  justify-content: space-between;
+}
+
+.form-select{
+  width: 20%;
+}
 .add-btn {
   display: flex;
   width: 7rem;
@@ -60,12 +70,15 @@ th {
   word-wrap: break-word;
 }
 
-.status-column {
-  width: 10%;
+.status-column input{
+  margin-right: 10%;
 }
 
 .actions-column {
-  width: 10%;
+  display: flex;
+  gap: 10%;
+  border: none;
+  border-top: 1px solid #ddd;
 }
 
 .btn {
