@@ -1,13 +1,13 @@
 # To-Do List Application
-## Welcome to the To-Do List Application! This application allows you to manage your tasks efficiently with the ability to add, update, delete, and categorize tasks.
+### Welcome to the To-Do List Application! This application allows you to manage your tasks efficiently with the ability to add, update, delete, and categorize tasks.
 
 ## Table of Contents
-### Features
-### Installation
-### Usage
-### Testing
-### Code Structure
-### Key Decisions
+- Features
+- Installation
+- Usage
+- Testing
+- Code Structure
+- Key Decisions
 
 ## Features
 - Add Task: Add new tasks with a title, description, due date, and category.
